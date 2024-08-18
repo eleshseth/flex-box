@@ -1,1 +1,30 @@
 /* flex box => layout */
+
+.container {
+  max-width: 60rem;
+  background-color: var(--grey-light-1);
+  margin: 8rem auto;
+  box-shadow: var(--shadow-dark);
+  min-height: 30rem;
+}
+
+.header {
+  height: 5rem;
+  background-color: #7e2727;
+  border-bottom: var(--color-grey-light-2);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: var(--grey-dark-1);
+}
+
+.hotel-view {
+  flex: 5;
+  background-color: tomato;
+  height: 20rem;
+}
